@@ -62,8 +62,8 @@ Captures global ripple effects where inflation in one region may impact others, 
 
 ## 📌 Author
 
-👩‍💻 **Created by:** *Akanksha*  
-📫 Reach out: *[Your Email or LinkedIn]*  
+👩‍💻 **Created by:** *Akanksha Singh*  
+📫 Reach out: *akanksha24d@gmail.com*  
 📅 Year: 2025  
 📝 For learning, internship, and portfolio use
 
