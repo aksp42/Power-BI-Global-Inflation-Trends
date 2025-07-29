@@ -51,9 +51,8 @@ Captures global ripple effects where inflation in one region may impact others, 
 
 > *(Add image previews here after uploading in the repo)*
 
-![Dashboard Screenshot 1](Dashboard Screenshot - 1.png)  
-![Dashboard Screenshot 2](Dashboard Screenshot-2.png)
-
+![Inflation Dashboard Overview](Dashboard%20Screenshot%20-%201.png)  
+![Region-wise Inflation Summary](Dashboard%20Screenshot%20-2.png)
 
 ## 🚀 How to Use
 
