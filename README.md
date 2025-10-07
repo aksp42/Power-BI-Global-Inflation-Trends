@@ -1,112 +1,68 @@
 📊 Global Inflation Risk Analysis Dashboard
+🧠 Project Overview
 
-Project Overview
-This project is a comprehensive Data Analysis solution developed in Microsoft Power BI to analyze global inflation rates from 1980 to 2024. The primary goal is to transform complex, wide-format macroeconomic data into an actionable, multi-page dashboard that provides strategic insights into volatility, geographic risk concentration, and the verifiable performance of a key risk mitigation mechanism.
+This project is a comprehensive Data Analysis solution developed in Microsoft Power BI to analyze global inflation rates (1980–2024).
+The primary goal is to transform complex, wide-format macroeconomic data into an actionable, multi-page dashboard that delivers strategic insights into volatility, geographic risk concentration, and the verified performance of a key risk mitigation mechanism.
 
-The Problem
-Global inflation data is often unstructured and highly volatile, making it difficult for stakeholders to accurately gauge financial risk and the effectiveness of risk-hedging policies. This project addresses the lack of a unified, quantifiable system to measure policy efficacy and residual risk concentration.
+❗ The Problem
+
+Global inflation data is often unstructured and highly volatile, making it difficult for stakeholders to gauge financial risk or measure the effectiveness of hedging policies.
+This project addresses the lack of a unified, quantifiable system to assess policy efficacy and residual risk concentration.
 
 🚀 Solution: Key Metrics & Dashboard Structure
-The solution is an interactive, four-page Power BI dashboard centered around measuring two critical KPIs: Adjustment Effectiveness and Residual Risk Disparity.
 
-Dashboard Pages
-Strategic Summary: High-level trends and overall mechanism performance.
+The solution is an interactive four-page Power BI dashboard focused on two core KPIs:
 
-Operational Risk Hotspots: Geographic and seasonal volatility analysis.
+Adjustment Effectiveness (%)
 
-Mechanism Effectiveness: Detailed comparison of Raw Rate versus Adjusted Rate for KPI validation.
+Residual Risk Disparity (%)
 
-Deep Dive Analysis: Focus on extreme outliers and risk category disparity.
+📑 Dashboard Pages
+
+Strategic Summary – High-level trends and overall mechanism performance.
+
+Operational Risk Hotspots – Geographic and seasonal volatility analysis.
+
+Mechanism Effectiveness – Comparison of Raw Rate vs Adjusted Rate for KPI validation.
+
+Deep Dive Analysis – Exploration of outliers and disparity across risk categories.
 
 🎯 Key Findings & Project Success
-The analysis across the four dashboard pages led to three major, data-backed conclusions:
-
-Finding Category
-
-Key Insight
-
-Data Point
-
-Policy Success Rate
-
-The implemented risk mitigation mechanism successfully reduced maximum inflation exposure.
-
-Adjustment Effectiveness: 90.00%
-
-Residual Risk
-
-An alarming disparity exists between the highest and lowest risk categories, emphasizing the extreme impact of outliers.
-
-Residual Risk Disparity: 33,203.18%
-
-Top Hotspot
-
-Risk is highly concentrated, with one country contributing more than half of the total rate in the analyzed subset.
-
-Armenia contributed 51.63% of the analyzed inflation sum.
-
-Temporal Risk
-
-Volatility follows a predictable annual pattern, indicating a specific high-risk window for proactive measures.
-
-Volatility consistently peaks in October.
-
+Finding Category	Key Insight	Data Point
+Policy Success Rate	The implemented mechanism reduced maximum inflation exposure.	Adjustment Effectiveness: 90.00%
+Residual Risk	Large disparity between highest and lowest risk categories.	Residual Risk Disparity: 33,203.18%
+Top Hotspot	Risk is highly concentrated, with one country contributing more than half of the total rate.	Armenia contributed 51.63% of analyzed inflation sum.
+Temporal Risk	Volatility follows a predictable pattern with a high-risk window.	Volatility peaks in October.
 🛠️ Technical Stack & Methodology
-Component
-
-Tool/Language
-
-Purpose
-
-Data Visualization
-
-Microsoft Power BI
-
-Dashboard creation, reporting, and interaction.
-
-Data Transformation
-
-Power Query (M-Language)
-
-Data cleaning, unpivoting of time-series data, and initial modeling.
-
-Business Logic/KPIs
-
-DAX (Data Analysis Expressions)
-
-Calculation of core metrics such as Adjusted Rate, Risk Category, Adjustment Effectiveness (%), and Risk Disparity (%).
-
-Data Source
-
-global_inflation_data.csv
-
-Raw time-series data for multiple countries (1980–2024).
-
+Component	Tool / Language	Purpose
+Data Visualization	Microsoft Power BI	Dashboard creation and reporting
+Data Transformation	Power Query (M-Language)	Cleaning, unpivoting, and modeling
+Business Logic / KPIs	DAX (Data Analysis Expressions)	Calculation of metrics and KPIs
+Data Source	global_inflation_data.csv	Raw time-series dataset (1980–2024)
 📁 Repository Structure
-global_inflation_data.csv: The raw dataset used for analysis.
+├── global_inflation_data.csv           # Raw dataset  
+├── Global_Inflation_Risk_Analysis.pbix # Power BI dashboard file  
+├── Final_Project_Report.md             # Official documentation  
+└── Screenshots/                        # Dashboard visuals
 
-Global_Inflation_Risk_Analysis.pbix: The complete, interactive Power BI report file.
+🔮 Future Scope
 
-Final_Project_Report.md: The official project documentation.
+To enhance the project’s predictive and analytical capabilities:
 
-Screenshots/: Folder containing dashboard page visuals for demonstration.
+ML Integration: Add models like ARIMA or Prophet for 12–24 month forecasting.
 
-🚀 Future Scope
-To enhance the project's predictive power and decision-making capabilities:
+External Variables: Include commodity prices and interest rates to assess correlation.
 
-ML Integration: Implement Machine Learning models (e.g., ARIMA or Prophet) for 12−24 month inflation forecasting.
+Advanced Navigation: Enable dynamic drill-through for country-specific risk exploration.
 
-External Variables: Integrate data on Commodity Prices and Interest Rates to determine correlation with inflation spikes.
-
-Advanced Navigation: Implement dynamic drill-through functionality for deeper, country-specific analysis.
-
-💻 Usage
-To view and interact with the full analysis:
+💻 Usage Instructions
 
 Download the repository content.
 
-Ensure you have Microsoft Power BI Desktop installed.
+Install Microsoft Power BI Desktop.
 
 Open the Global_Inflation_Risk_Analysis.pbix file.
 
-Interact with the slicers and filters to explore data by country, year, and risk category.
+Use slicers and filters to interact with the data by country, year, and risk category.
+
+⭐ If you find this project insightful, feel free to star the repository and explore the dashboard visuals!
