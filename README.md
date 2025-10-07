@@ -1,4 +1,5 @@
 📊 Global Inflation Risk Analysis Dashboard
+
 Project Overview
 This project is a comprehensive Data Analysis solution developed in Microsoft Power BI to analyze global inflation rates from 1980 to 2024. The primary goal is to transform complex, wide-format macroeconomic data into an actionable, multi-page dashboard that provides strategic insights into volatility, geographic risk concentration, and the verifiable performance of a key risk mitigation mechanism.
 
